@@ -25,28 +25,17 @@ LICENSE
    }
 
   s.source_files        =
-  s.public_header_files =['build/pjproject/src/pjlib/include/*.h',
+  s.public_header_files =[
                           'build/pjproject/src/pjlib/include/**/*.h',
                           'build/pjproject/src/pjlib-util/include/**/*.h',
-                          'build/pjproject/src/pjlib-util/include/*.h',
                           'build/pjproject/src/pjmedia/include/**/*.h',
-                          'build/pjproject/src/pjmedia/include/*.h',
                           'build/pjproject/src/pjnath/include/**/*.h',
-                          'build/pjproject/src/pjnath/include/*.h',
-                          'build/pjproject/src/pjsip/include/**/*.h',
-                          'build/pjproject/src/pjsip/include/*.h']
-
+                          'build/pjproject/src/pjsip/include/**/*.h']
   s.preserve_paths      =['build/pjproject/src/pjlib/include/**/*',
-                          'build/pjproject/src/pjlib/include/*',
                           'build/pjproject/src/pjlib-util/include/**/*',
-                          'build/pjproject/src/pjlib-util/include/*',
                           'build/pjproject/src/pjmedia/include/**/*',
-                          'build/pjproject/src/pjmedia/include/*',
                           'build/pjproject/src/pjnath/include/**/*',
-                          'build/pjproject/src/pjnath/include/*',
-                          'build/pjproject/src/pjsip/include/**/*',
-                          'build/pjproject/src/pjsip/include/*']
-
+                          'build/pjproject/src/pjsip/include/**/*']
   s.vendored_libraries  =['build/openh264/lib/*.a',
                           'build/opus/dependencies/lib/*.a',
                           'build/pjproject/src/pjlib/lib/*.a',
