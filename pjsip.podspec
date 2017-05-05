@@ -24,7 +24,7 @@ PJSIP may include third party software in its source code distribution. Third Pa
 LICENSE
    }
 
-  "public_header_files": ["build/pjproject/src/pjlib/include/**"],
+  "public_header_files": "build/pjproject/src/pjlib/include/**",
   "source_files": [
     "build/pjproject/src/pjlib/include/**",
     "build/pjproject/src/pjlib-util/include/**",
